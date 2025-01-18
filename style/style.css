@@ -51,15 +51,81 @@ nav a {
 
 .header {
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner {
-    padding: 30xp 30px 30px 150px;
+    padding: 30xp 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-con {
+    max-width: 500px;
 }
 
 .banner .profile-pic {
     width: 584px;
     height: 676px;
+}
+
+.b-g {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.b-t {
+    margin-top: 5px;
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.b-d {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+/* mai related styles*/
+.about-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+main {
+max-width: 1140px;
+margin: 0 auto;
+}
+
+.about-dis {
+    color: #181818;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* about related styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    margin: 130xp 0;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about-info{
+    text-align: center;
 }
